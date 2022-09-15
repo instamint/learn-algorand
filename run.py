@@ -2,8 +2,8 @@ from algosdk.v2client import algod, indexer
 from algosdk import account, mnemonic, kmd
 import json, base64
 
-acc = 'VPNILZAJTOQO5OKGMSIYCU6ZURMZAYGER5T5UFIQOS5UQPYLLTG72XCFXI'
-algod_address = 'http://instamint.network:4001'
+acc = 'KZEAJKQIADHBKGI6QWDNZJAEW2NDBJ7E7YHU5RQRQJEIHS5PXYNNWGAW3Y'
+algod_address = 'http://localhost:4001'
 algod_token = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
 algod_client = algod.AlgodClient(algod_token, algod_address)
 account_info = algod_client.account_info(acc)
